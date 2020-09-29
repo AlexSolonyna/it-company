@@ -399,7 +399,11 @@ h5 {
 .video_btn {
   display: flex;
   align-items: center;
+  border: 1px solid #fff;
+  border-radius: 200px;
+  padding: 15px 30px;
 }
+
 .video_item {
   border-bottom: 1px solid #e0e0e0;
 }
@@ -413,6 +417,10 @@ h5 {
   background-size: cover;
 }
 
+.play_img {
+  margin-right: 21px;
+}
+
 .btn_container {
   position: absolute;
   top: 0;
@@ -422,6 +430,14 @@ h5 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.btn_container a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  color: #fff;
 }
 
 /* .video_item {
